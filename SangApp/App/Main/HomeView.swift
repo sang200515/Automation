@@ -26,7 +26,7 @@ struct HomeView: View {
             })
                 .frame(width: 700, height: 500)
         case .xcode:
-            openXcodeProject()
+            XcodeOpenView()
                 .frame(width: 700, height: 500)
         }
     }
